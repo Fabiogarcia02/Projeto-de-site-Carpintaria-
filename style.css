@@ -6,27 +6,80 @@
     --text-light: #6b7280;
     --bg-light: #f3f4f6;
     --white: #ffffff;
-  }
-  
-  .tel_h3 {
+}
+
+.tel_h3 {
     color: var(--text-color);
-  }
-  
-  .tel_h3:hover {
+}
+
+.tel_h3:hover {
     color: black;
-  }
-  
-  a {
+}
+
+a {
     text-decoration: none;
-  }
-  
-  * {
+}
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-  }
-  
-  html {
+}
+
+html {
     scroll-behavior: smooth;
-  }
+}
+
+body {
+    font-family: system-ui, -apple-system, sans-serif;
+    line-height: 1.5;
+    color: var(--text-color);
+}
+
+.menu-toggle {
+    color: var(--primary-color);
+    background-color: #0000;
+    border: none;
+    position: absolute;
+    top: 3.2vh;
+    right: 5px;
+    font-size: 1.5rem;
+    display: block;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    border-radius: 3px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    color: var(--white);
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-dark);
+}
+
+.btn-secondary {
+    background-color: var(--white);
+    color: var(--text-color);
+}
+
+.btn-secondary:hover {
+    background-color: var(--bg-light);
+}
