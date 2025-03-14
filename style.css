@@ -1,0 +1,32 @@
+/* Reset and base styles */
+:root {
+    --primary-color: #2563eb;
+    --primary-dark: #1d4ed8;
+    --text-color: #1f2937;
+    --text-light: #6b7280;
+    --bg-light: #f3f4f6;
+    --white: #ffffff;
+  }
+  
+  .tel_h3 {
+    color: var(--text-color);
+  }
+  
+  .tel_h3:hover {
+    color: black;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
