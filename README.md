@@ -1,1 +1,1 @@
-.
+Site simulador (não real) para uma empresa de carpintaria e pisos em geral, onde será possível realizar um requerimento de orçamento (por meio de JavaScript), que será enviado diretamente para o meu próprio e-mail. No entanto, essa implementação só ocorrerá quando eu conseguir aprimorar meus conhecimentos em JavaScript, pois, no momento, meu código está muito simples. Ainda vou desenvolver mais esse site.
