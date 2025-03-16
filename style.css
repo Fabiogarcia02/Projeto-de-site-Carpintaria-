@@ -9,7 +9,7 @@
   }
   
   .tel_h3 {
-    color: var(--text-color);
+    color: #dbeafe;
   }
   
   .tel_h3:hover {
@@ -91,8 +91,9 @@
     left: 0;
     right: 0;
     background-color: var(--white);
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 3px rgba(12, 12, 12, 0.1);
     z-index: 1000;
+    background-color: #111827;
   }
   
   .header-content {
@@ -105,6 +106,7 @@
   .logo {
     font-size: 1.5rem;
     font-weight: bold;
+    color: #dbeafe;
   }
   
   header > .container > .header-content > nav > ul {
@@ -116,14 +118,14 @@
   }
   
   .nav-menu a {
-    color: var(--text-color);
+    color:#dbeafe;
     border: 1px;
     text-decoration: none;
     padding: 0.5rem 1rem;
   }
   
   .nav-menu a:hover {
-    color: var(--primary-color);
+    color: #dbeafe;;
     border-bottom: 1px solid var(--primary-color);
   }
   
@@ -151,7 +153,7 @@
   .hero {
     position: relative;
     height: 100vh;
-    background-image: url('https://images.unsplash.com/photo-1600585154526-990dced4db0d');
+    background-image: url(https://images.unsplash.com/photo-1462206092226-f46025ffe607?q=80&w=2299&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     background-size: cover;
     background-position: center;
     color: var(--white);
@@ -583,7 +585,7 @@
   
   @media (max-width: 768px) {
     .header {
-      display: none; /* Oculta o header em telas menores */
+      display: none; 
     }
   
     .home-button {
